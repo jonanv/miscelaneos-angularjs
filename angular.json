@@ -25,12 +25,13 @@
                         ],
                         "styles": [
                             "src/styles.css",
-                            "assets/libs/bootstrap-4.4.1/css/bootstrap.min.css"
+                            "src/assets/libs/bootstrap-4.4.1/css/bootstrap.min.css",
+                            "src/assets/libs/fontawesome-5.13.0/css/fontawesome.min.css"
                         ],
                         "scripts": [
-                            "assets/libs/jquery-3.4.1/jquery.slim.min.js",
-                            "assets/libs/tether-2.0.0/js/tether.js",
-                            "assets/libs/bootstrap-4.4.1/js/bootstrap.min.js"
+                            "src/assets/libs/jquery-3.4.1/jquery.slim.min.js",
+                            "src/assets/libs/tether-2.0.0/js/tether.js",
+                            "src/assets/libs/bootstrap-4.4.1/js/bootstrap.min.js"
                         ]
                     },
                     "configurations": {
