@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ClasesComponent implements OnInit {
 
   alert: string = "alert-danger";
+  loading: boolean = false;
 
   props: Object = {
     danger: false
@@ -18,4 +19,10 @@ export class ClasesComponent implements OnInit {
   ngOnInit() {
   }
 
+  runProcess() {
+    this.loading = true;
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000);
+  }
 }

@@ -18,3 +18,12 @@
 <button type="button" class="btn" name="button" (click)="props['danger'] = !props['danger']" [ngClass]="{'btn-danger': props['danger'], 'btn-info': !props['danger'] }">
   Cambiar
 </button>
+
+<br><br>
+<h3>Proceso asincrono</h3>
+
+<button type="button" name="button" class="btn btn-primary" (click)="runProcess()">
+  <i *ngIf="loading" class="fas fa-sync fa-spin"></i>
+  <i *ngIf="!loading" class="fas fa-save"></i>
+  Guardar cambios
+</button>
