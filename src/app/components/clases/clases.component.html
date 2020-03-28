@@ -23,7 +23,6 @@
 <h3>Proceso asincrono</h3>
 
 <button type="button" name="button" class="btn btn-primary" (click)="runProcess()">
-  <i *ngIf="loading" class="fas fa-sync fa-spin"></i>
-  <i *ngIf="!loading" class="fas fa-save"></i>
+  <i class="fas" [ngClass]="{'fa-sync fa-spin': loading, 'fa-save': !loading}"></i>
   Guardar cambios
 </button>
