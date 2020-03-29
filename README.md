@@ -73,6 +73,15 @@ or
 ng g c components/ngStyle -it -is
 ```
 
+# Create directive 
+```javascript
+ng generate directive directives/resaltado
+```
+or
+```javascript
+ng g d directives/resaltado
+```
+
 # Server local
 install global ```sudo npm i -g http-server```
 
