@@ -73,6 +73,15 @@ or
 ng g c components/ngStyle -it -is
 ```
 
+# Create component without -it(inline-template) -is(inline-styles) spec in some folder
+```javascript
+ng generate component components/usuario/usuarioNuevo -is -it --spec=false --flat
+```
+or
+```javascript
+ng g c components/usuario/usuarioNuevo -is -it --spec=false --flat
+```
+
 # Create directive 
 ```javascript
 ng generate directive directives/resaltado
