@@ -73,7 +73,7 @@ or
 ng g c components/ngStyle -it -is
 ```
 
-# Create component without -it(inline-template) -is(inline-styles) spec in some folder
+# Create component without -it(inline-template) -is(inline-styles) --spec in the some folder
 ```javascript
 ng generate component components/usuario/usuarioNuevo -is -it --spec=false --flat
 ```
