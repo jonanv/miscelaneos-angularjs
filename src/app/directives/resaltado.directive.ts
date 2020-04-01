@@ -10,7 +10,7 @@ export class ResaltadoDirective {
   constructor(
     private elementRef: ElementRef
   ) {
-    console.log("Directiva llamada");
+    // console.log("Directiva llamada");
     // this.elementRef.nativeElement.style.backgroundColor = 'yellow';
   }
 
