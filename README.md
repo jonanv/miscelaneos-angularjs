@@ -107,8 +107,8 @@ http-server -o
 [npm-badge]: https://img.shields.io/badge/npm-v6.13.4-brightgreen.svg
 [npm-url]: https://www.npmjs.com
 [node-badge]: https://img.shields.io/badge/nodejs-v10.18.1-brightgreen
-[node-url]: https://nodejs.org/download/release/v10.16.3/
-[angular-badge]: https://img.shields.io/badge/angular--CLI-v8.1.3-brightgreen
+[node-url]: https://nodejs.org/download/release/v10.18.1/
+[angular-badge]: https://img.shields.io/badge/angular--CLI-v8.3.24-brightgreen
 [angular-url]: https://angular.io/cli/
 [license-badge]: https://img.shields.io/badge/license-MIT-green.svg
 [license-url]: https://opensource.org/licenses/MIT
