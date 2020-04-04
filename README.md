@@ -8,10 +8,10 @@
 [![License][license-badge]][license-url]
 
 # Site
-<!-- ![Spotify angularjs](https://i.imgur.com/B2heenX.png) -->
+<!-- ![miscelaneos angularjs](https://i.imgur.com/B2heenX.png) -->
 
 # Install dependences
-in ```miscelaneos-angularjs/```
+in ````-angularjs/```
 
 ```bash
 npm install
@@ -94,7 +94,7 @@ ng g d directives/resaltado
 # Server local
 install global ```sudo npm i -g http-server```
 
-deploy in ```/spotify-angularjs/dist/spotify-angularjs/```
+deploy in ```/miscelaneos-angularjs/dist/miscelaneos-angularjs/```
 
 ```javascript
 http-server
