@@ -11,7 +11,7 @@
 <!-- ![miscelaneos angularjs](https://i.imgur.com/B2heenX.png) -->
 
 # Install dependences
-in ````-angularjs/```
+in ```miscelaneos-angularjs/```
 
 ```bash
 npm install
