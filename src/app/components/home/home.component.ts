@@ -34,12 +34,12 @@ export class HomeComponent implements OnInit, OnChanges, DoCheck, AfterContentIn
     console.log("constructor");
   }
 
-  ngOnInit() {
-    console.log("ngOnInit");
-  }
-
   ngOnChanges() {
     console.log("ngOnChanges");
+  }
+
+  ngOnInit() {
+    console.log("ngOnInit");
   }
 
   ngDoCheck() {
